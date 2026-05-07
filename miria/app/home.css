@@ -1,0 +1,95 @@
+body{
+    background-color: #fff0f7;
+    font-family: Arial;
+}
+.container{
+    width: 700px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+h1{
+    color: #ff4fa3;
+}
+h2{
+    color: #ff70b5;
+    margin-top: 40px;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #ffcce6;
+}
+.card h3{
+    color: #ff4fa3;
+}
+
+button{
+    background-color: #ff4fa3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ff2f92;
+}
+
+.sem-match{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    color: #ff4fa3;
+    box-shadow: 0px 0px 10px #ffcce6;
+}
+
+#btn-voltar {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    background: #ff4da6;
+    color: white;            
+    border-radius: 50%;
+    display: flex;           
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
+}
+#btn-voltar:hover {
+    background: #e60073;
+    transform: scale(1.1);
+}
+#btn-voltar i {
+    font-size: 20px;
+}
+
+.perfil-btn {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background: #ff4da6;
+    color: white;            
+    border-radius: 50%;
+    display: flex;           
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
+}
+.perfil-btn:hover {
+    background: #e60073;
+    transform: scale(1.1);
+}
